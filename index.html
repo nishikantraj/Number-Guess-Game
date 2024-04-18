@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title"><h1>Number Guess Game</h1></div>
+    <div class="desc">
+        <p>Try and guess a random number between 1 and 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+    </div>
+    <div class="fieldBox">
+        <form class="field">
+            <h2 id="gameTitle">
+                <label>Guess a number</label>
+            </h2>
+            <div class="inputBox">
+                <input class="box" type="text">
+            </div>
+        </form>
+    </div>
+    <div class="submitBtn">
+        <button class="glow-on-hover">Submit Guess</button>
+    </div>
+    <div class="resultBox">
+        <div class="prevGuess">
+            <p>Previous Guess: <span class="prev"></span></p>
+        </div>
+        <div class="remGuess">
+            <p>Guesses remaining: <span class="remain">10</span></p>
+        </div>
+    </div>
+    <div class="result">
+        
+    </div>
+    <div class="startOver">
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
